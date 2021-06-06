@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/static/style.css">
+	<title>Homepage</title>
+</head>
+
+<body>
+	<h1>This is a page being rendered by jinja.</h1>
+	<p>The time on the server is: <code>{{time}}</code></p>
+	<form action="/mult2">
+		<h2>Multiply a number by 2: </h2>
+		<input type="number" name="num" id="num">
+		<input type="submit" value="Calculate result on server">
+	</form>
+</body>
+
+</html>
